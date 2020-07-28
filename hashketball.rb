@@ -211,7 +211,7 @@ def big_shoe_rebounds
   game_hash.each do |location,team_stats|
     team_stats[:players].each do |player_stats|
         if player_stats[:shoe] > big_shoe 
-          big_shoe = platyer_stats[:shoe]
+          big_shoe = player_stats[:shoe]
           rebounds = player_stats[:rebounds]
         end
     end
